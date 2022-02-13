@@ -26,9 +26,9 @@ Syntax highlighted code block
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+### Recoleccion de datos de Twitter
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mayerli-mendez/Web_Scraping/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Para la recoleccion de datos de Twitter se lo realizo en jupyter notebook mediante script , por ello lo mas revelevante de tomar en consideracion es tener las API es decir las claves para poder tener acceso a los datos,realizar bien la clase para la extraccion de datos, verificar que se realizo la conexion localmente con las bases de datos que en este caso fueron dos CouchDB y MongoDb ,colocar correctamente el nombre de usuario y contraseña que tengamos, crear la base de datos en la cual se va a guardar los datos y finalmente realizar el track con el parametro que se desea extraer los datos.
 
 ### Support or Contact
 
