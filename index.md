@@ -26,6 +26,9 @@ Syntax highlighted code block
 
 ### Recoleccion de datos de Twitter
 
+![This is an image](https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-3.png)
+
+
 Para la recoleccion de datos de Twitter se lo realizo en jupyter notebook mediante script , por ello lo mas revelevante de tomar en consideracion es tener las API es decir las claves para poder tener acceso a los datos.
 
 realizar bien la clase para la extraccion de datos, verificar que se realizo la conexion localmente con las bases de datos que en este caso fueron dos CouchDB y MongoDb ,colocar correctamente el nombre de usuario y contraseña que tengamos, crear la base de datos en la cual se va a guardar los datos y finalmente realizar el track con el parametro que se desea extraer los datos.
