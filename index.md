@@ -131,6 +131,9 @@ Se realizo la importacion de los datos obtenidos mediante los diferentes gestore
 
 ### Envio de datos de MongoDbAtlas a Couch 
 
+Si recordamos en el ejercicio de MongoAtlas a MySQL nosotros hemos exportado un documento json y luego lo transformaríamos a csv. Ahora podemos solo enviarlo a couchdb con el código de los primeros ejercicios de tiktok a couchdb que es el uso de git. Igualmente debemos convertir nuestro csv a tsv y existe muchas páginas de conversión.
+Utilizaremos GIT para el uso de comandos de couchimport como : curl –X PUT http://Jorgin:12345@127.0.0.1_5984/ platziproyecto y luego como último paso la importación : cat platzi.tsv | couchimport –url http://Jorgin:12345@127.0.0.1:5984 –db platziproyecto.
+
 ### Envio de datos de MongoDb a MySql
 
 Vamos a exportar este documento de MongoDB a nuestro directorio de Proyecto por lo que la aplicación de Mongo tiene una opción de exportación y de donde ubicarlo.
@@ -177,10 +180,6 @@ Recordar que todo archivo descargado de cualquier formato debe estar en el direc
 
 Sqlachemy ayudara con el gestor de conexión de nuestra database de mysql y donde utilizaremos read_json para leer el formato json y luego lo transformaremos a csv para una mejor importación.
 Conectamos con a nuestra MySQL y crearemos el entorno de conexión donde leeremos el csv creado y eso enviaremos como lenguaje sql con la creación de una tabla para MySQL.
-Atlas a Couch
-Si recordamos en el ejercicio de MongoAtlas a MySQL nosotros hemos exportado un documento json y luego lo transformaríamos a csv. Ahora podemos solo enviarlo a couchdb con el código de los primeros ejercicios de tiktok a couchdb que es el uso de git. Igualmente debemos convertir nuestro csv a tsv y existe muchas páginas de conversión.
-Utilizaremos GIT para el uso de comandos de couchimport como : curl –X PUT http://Jorgin:12345@127.0.0.1_5984/ platziproyecto y luego como último paso la importación : cat platzi.tsv | couchimport –url http://Jorgin:12345@127.0.0.1:5984 –db platziproyecto.
-
 
 ### Envio de datos de Mysql a MongoDbAtlas.
 
