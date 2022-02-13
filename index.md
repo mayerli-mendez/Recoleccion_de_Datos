@@ -1,8 +1,8 @@
-# Bienvenidos a nuestra pagina
+Bienvenidos a nuestra pagina
 
 En este mostraremos toda la documentacion , pasos de como realizar una recopilacion de datos de diferentes redes sociales con sus respectivas tecnicas junto al almacenamiento en sistemas gestores de bases de datos que administran datos no Sql y Sql.
 
-## Recoleccion de datos de Platzi
+# Recoleccion de datos de Platzi
 
 Se realizo la recoleccion de datos de platzi la cual es una plataforma de educación online efectiva, la cual ofrece mas de 700 cursos enfocados ingeniería y desarrollo de software, diseño y UX, ingles, marketing digital, emprendimiento y negocios y mucho mas.
 
