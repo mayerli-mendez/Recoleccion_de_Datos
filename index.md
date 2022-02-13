@@ -102,11 +102,8 @@ Para más detalles, véase [El repositorio de GitHub](https://github.com/mayerli
 
 
 
-##### Autores
+#### Autores
 - Manuel Auqui
 - Leoni Guambo
 - Mayerli Mendez
 - Jorge Ortiz
-
-
-
