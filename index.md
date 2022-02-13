@@ -1,4 +1,4 @@
-Bienvenidos a nuestra pagina
+# Bienvenidos a nuestra pagina
 
 En este mostraremos toda la documentacion , pasos de como realizar una recopilacion de datos de diferentes redes sociales con sus respectivas tecnicas junto al almacenamiento en sistemas gestores de bases de datos que administran datos no Sql y Sql.
 
@@ -6,7 +6,7 @@ En este mostraremos toda la documentacion , pasos de como realizar una recopilac
 
 Se realizo la recoleccion de datos de platzi la cual es una plataforma de educación online efectiva, la cual ofrece mas de 700 cursos enfocados ingeniería y desarrollo de software, diseño y UX, ingles, marketing digital, emprendimiento y negocios y mucho mas.
 
-### Recoleccion de datos de Twitter
+## Recoleccion de datos de Twitter
 
 #### Twitter a CouchDb
 
@@ -80,7 +80,7 @@ Y finalmente comprobamos en la base de datos MongoDB.
 
 ![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA2P7CG4OG4AQNC2DKMNGV6ADNGN%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7BC78DF84F-801B-4583-A1A9-8D357C01B4CD%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
 
-### Recoleccion de datos de Facebook
+## Recoleccion de datos de Facebook
 
 #### Facebook a CouchDb
 
@@ -131,7 +131,7 @@ Con el db.inset_one (doc) guardamos los documentos extraídos de Facebook en mon
 
 ![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpeg&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA6FYLOAWG4QLJGLMIZLGDED6RHW%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzg2MDAwIiwiZXhwIjoiMTY0NDgwNzYwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.aStYRmRGVmh6T1pzVUhONFNDdXJSNmZDdU1ibDRTNEZvZGR2dVlrTThIST0&cTag=%22c%3A%7B0BDCC2C5-901B-4C5A-B623-2B30C83F44F6%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
 
-### Recoleccion de datos de TikTok
+## Recoleccion de datos de TikTok
 
 #### TikTok a CouchDb
 
@@ -161,13 +161,13 @@ Al momento de utilizar esta recopilación debemos ahora importarlo por código P
 
 En este código pymongo.MongoClient ayudara a la gestión de la conexión del localhost de MongoDB Compass. Como hemos descargado un archivo csv en el mismo directorio de nuestro código debemos utilizar la librería panda para que la función read_csv pueda leer mi archivo descargado csv y pueda imprimirlo con su cabecera. La función to_dict que se utiliza para convertir un marco de datos en un diccionario de series o listas como tipo de datos según el parámetro de orientación. La función db=client[“”] estoy creara o se trabajara si existe en la base de datos de Mongo y la función db.(nombre de collection).insertmany ayudara en la creación de colección y la inserción de múltiples elementos a MongoDB.
 
-### Recoleccion de datos de WebScraping
+## Recoleccion de datos de WebScraping
 
-## Importacion y expotacion de datos.
+# Importacion y expotacion de datos.
 
 Se realizo la importacion de los datos obtenidos mediante los diferentes gestores de bases de datos CouchDB,MongoDb,MongoDBAtlas y Mysql.
 
-### Envio de datos de Couch a MongoDb
+## Envio de datos de Couch a MongoDb
 
 Import requests es una librería Python que facilita enormemente el trabajo con peticiones HTTP. De igual manera se importan las librerías de mongo client y couch.
 
@@ -194,7 +194,7 @@ Finalmente, con el for lo que se hace es permitir leer cada documento de la base
 ![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpeg&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA4KXURB7QJNTJBLNFR4Q4TEZFSY%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzg2MDAwIiwiZXhwIjoiMTY0NDgwNzYwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.aStYRmRGVmh6T1pzVUhONFNDdXJSNmZDdU1ibDRTNEZvZGR2dVlrTThIST0&cTag=%22c%3A%7B1F22BD8A-2DC1-429A-B696-3C87264C9658%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
 
 
-### Envio de datos de MongoDb a Couch  
+## Envio de datos de MongoDb a Couch  
 
 Como primer paso será descargar una librería llamada Facebook-scraper.
 Llamamos a la librería descargada de Facebook-scraper, se importa varias librerías que utilizaremos más adelante como pymongo , Jason, time From argparse que sirve como analizador sintáctico para las opciones, argumentos y sub-comandos de la línea de comandos, requests que es una librería Python que facilita enormemente el trabajo con peticiones HTTP, como última importación tenemos un coach y json_util.
@@ -222,15 +222,15 @@ Imprimimos los documentos para que se nos muestren en pantalla y verificar que s
 
 ![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpeg&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA6SSSNDZDAR3RGJZJLKAVTNHQFY%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzg2MDAwIiwiZXhwIjoiMTY0NDgwNzYwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.aStYRmRGVmh6T1pzVUhONFNDdXJSNmZDdU1ibDRTNEZvZGR2dVlrTThIST0&cTag=%22c%3A%7B3C9A94D2-118C-4CDC-9CA5-6A0566D3C0B8%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
 
-### Envio de datos de Couch a MongoDbAtlas
+## Envio de datos de Couch a MongoDbAtlas
 
 
-### Envio de datos de MongoDbAtlas a Couch 
+## Envio de datos de MongoDbAtlas a Couch 
 
 Si recordamos en el ejercicio de MongoAtlas a MySQL nosotros hemos exportado un documento json y luego lo transformaríamos a csv. Ahora podemos solo enviarlo a couchdb con el código de los primeros ejercicios de tiktok a couchdb que es el uso de git. Igualmente debemos convertir nuestro csv a tsv y existe muchas páginas de conversión.
 Utilizaremos GIT para el uso de comandos de couchimport como : curl –X PUT http://Jorgin:12345@127.0.0.1_5984/ platziproyecto y luego como último paso la importación : cat platzi.tsv | couchimport –url http://Jorgin:12345@127.0.0.1:5984 –db platziproyecto.
 
-### Envio de datos de MongoDb a MySql
+## Envio de datos de MongoDb a MySql
 
 Vamos a exportar este documento de MongoDB a nuestro directorio de Proyecto por lo que la aplicación de Mongo tiene una opción de exportación y de donde ubicarlo.
 
@@ -247,7 +247,7 @@ To.sql ayudara a la conversión de un csv a lenguaje sql y se creara una tabla e
 
 ![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpeg&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA3NZMV34M2VRNEIYPGUCKKSD7LO%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7BBE2BCB6D-5533-488B-8C3C-D4129521FD6E%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
 
-### Envio de datos de MySql  a MongoDb
+## Envio de datos de MySql  a MongoDb
 
 Vamos a conectarnos a mediante pymysql y sqlalchemy donde ubicaremos nuestro link de conexión de la base de datos MySQL y vamos a crear un query para la selección de nuestra tabla a despegar.
 Vamos utilizar pandas para leer nuestro sql y concatenrar con la conexión para poder leer la información y luego con la función to_csv podemos traducirlo a csv pero el index = False ayudara es a crearlo.
@@ -255,7 +255,7 @@ Luego utilzaremos pyomongo para ir a MongoCLient y asiganr la conexión donde ut
 
 ![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA4NUC74KDAZ7REJERYT6HZCHCM6%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7BC5BFA08D-190C-48FC-9247-13F1F223899E%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
 
-### Envio de datos de MongoDbAtlas a Mysql.
+## Envio de datos de MongoDbAtlas a Mysql.
 
 Si tenemos un documento de MongoDB Atlas y queremos bajarlo podemos realizarlo con los comandos de los tools de Mongo donde existe el famoso mongoexport.
 Debemos entrar en el archivo bin de las carpetas donde se descargó MongoDB.
@@ -277,7 +277,7 @@ Recordar que todo archivo descargado de cualquier formato debe estar en el direc
 Sqlachemy ayudara con el gestor de conexión de nuestra database de mysql y donde utilizaremos read_json para leer el formato json y luego lo transformaremos a csv para una mejor importación.
 Conectamos con a nuestra MySQL y crearemos el entorno de conexión donde leeremos el csv creado y eso enviaremos como lenguaje sql con la creación de una tabla para MySQL.
 
-### Envio de datos de Mysql a MongoDbAtlas.
+## Envio de datos de Mysql a MongoDbAtlas.
 
 Primero ingresamos nuestro Mysql.
 
@@ -310,7 +310,6 @@ Ya creada la base de datos nos dirigimos a Insert Documents y procedemos a inser
 ![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA3IV5ZUXVJ3AFGYCIXTWLA7MBCT%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7B4B73AF68-3BD5-4D01-8122-F3B2C1F60453%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
 
 ![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA6GOW5BUSQP45HYV5ZRAJXUJZO6%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7B1ABA75C6-0F4A-4FE7-8AF7-31026F44E5DE%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
-
 
 Finalmente verificamos que los datos se han insertado correctamente.
 
