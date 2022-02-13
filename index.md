@@ -6,24 +6,6 @@ En este mostraremos toda la documentacion , pasos de como realizar una recopilac
 
 Se realizo la recoleccion de datos de platzi la cual es una plataforma de educación online efectiva, la cual ofrece mas de 700 cursos enfocados ingeniería y desarrollo de software, diseño y UX, ingles, marketing digital, emprendimiento y negocios y mucho mas.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
 ### Recoleccion de datos de Twitter
 
 #### Twitter a CouchDb
