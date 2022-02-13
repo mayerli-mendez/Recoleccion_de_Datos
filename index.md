@@ -47,6 +47,41 @@ Y finalmente comprobamos en la base de datos CouchDB.
 
 #### Twitter a MongoDb
 
+Para la recoleccion de datos de Twitter a MongoDb se lo realizo en jupyter notebook mediante script , por ello lo mas revelevante de tomar en consideracion es :
+
+Importar las librerias necesarias, que en este caso fueron 3.
+
+![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA6KPKAN4RYZKNFJ5TUUJ7HKAS3M%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7BDE807ACA-1947-4A53-9ECE-944FCEA04B6C%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
+
+Tener las API es decir las claves.
+
+![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA7FMPKVNDDISFAZI24IBGS4CRNX%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7B56D563E5-688C-4191-946B-8809A5C145B7%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
+
+Realizar bien la clase para la extraccion de datos.
+
+![This is an image]()
+
+
+Pasamos como parametro las claves para poder tener acceso.
+
+![This is an image]()
+
+Verificar que se realizo la conexion localmente con las bases de datos,colocar correctamente el nombre de usuario y contraseña que tengamos.
+
+![This is an image]()
+
+Crear la base de datos en la cual se va a guardar los datos.
+
+![This is an image]()
+
+Realizar el track con el parametro que se desea extraer los datos
+
+![This is an image]()
+
+Y finalmente comprobamos en la base de datos CouchDB.
+
+![This is an image]()
+
 ### Recoleccion de datos de Facebook
 
 
