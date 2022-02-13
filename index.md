@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Bienvenidos a nuestra pagina
 
-You can use the [editor on GitHub](https://github.com/mayerli-mendez/Web_Scraping/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+En este mostraremos toda la documentacion , pasos de como realizar una recopilacion de datos de diferentes redes sociales con sus respectivas tecnicas junto al almacenamiento en sistemas gestores de bases de datos que administran datos no Sql y Sql.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Recoleccion de datos de Platzi
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Se realizo la recoleccion de datos de platzi la cual es una plataforma de educación online efectiva, la cual ofrece mas de 700 cursos enfocados ingeniería y desarrollo de software, diseño y UX, ingles, marketing digital, emprendimiento y negocios y mucho mas.
 
 ```markdown
 Syntax highlighted code block
