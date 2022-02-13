@@ -87,6 +87,23 @@ Y finalmente comprobamos en la base de datos MongoDB.
 
 ### Recoleccion de datos de TikTok
 
+#### TikTok a CouchDb
+
+Para realizar este ejercicio vamos a utilizar comandos para la recopilación de datos de tiktok mediante tiktok scraper. Tiktok scraper es un comando de aplicación donde podemos realizar un almacenamiento de datos mediante hashtag o usuario.  
+Entraremos a la terminal de Windows y nos ubicaremos a un directorio donde se efectuará el proyecto. Luego utilizaremos el comando tiktok-scraper hashtag platzi –n 10 –d –z –t all.
+Donde podemos recopilar toda la información que deseemos de platzi con un numero de 10 registros –d en formato csv, -z formato zip para los videos, -t para el formato json de información.
+Instalar en el directorio de trabajo antes de realizar estos pasos tiktok-scraper con el comando npm i –g tiktok-scraper.
+
+![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpeg&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA2DQN4OSUSQV5AJKTRJJQQVGER3%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7BE9788343-5052-40AF-954E-294C2153123B%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
+
+Utilizaremos un comando de aplicación muy especial que es GIT que es una terminal de funciones que posee couchimport y los servicios de las bases de datos.
+Utilizaremos el comando curl –X PUT http://Jorgin:12345@127.0.0.1_5984/ platzi donde se creara una conexión con la base de datos y un database.
+Utilizaremos el comando cat para la importación de un archivo tsv que convertiremos de un archivo csv de la recopilacion de tikto-scraper, con el siguiente comando: cat platzi.tsv | couchimport –url http://Jorgin:12345@127.0.0.1:5984 –db platzi y se ejecutara la importación a nuestra base de datos.
+
+![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpeg&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA73X45DEOS6OBEZML7HI4KH5SHS%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7B323ABFFB-5E3A-4970-962F-E747147EC8F2%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
+
+
+#### TikTok a MongoDb
 
 ### Recoleccion de datos de WebScraping
 
