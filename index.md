@@ -150,6 +150,11 @@ To.sql ayudara a la conversión de un csv a lenguaje sql y se creara una tabla e
 
 ### Envio de datos de MySql  a MongoDb
 
+Vamos a conectarnos a mediante pymysql y sqlalchemy donde ubicaremos nuestro link de conexión de la base de datos MySQL y vamos a crear un query para la selección de nuestra tabla a despegar.
+Vamos utilizar pandas para leer nuestro sql y concatenrar con la conexión para poder leer la información y luego con la función to_csv podemos traducirlo a csv pero el index = False ayudara es a crearlo.
+Luego utilzaremos pyomongo para ir a MongoCLient y asiganr la conexión donde utilzaremos la función pandas y leeremos nuestro csv , luego utilzaremos la función .to_dict para el marco de función y crearemos el database de Mongo con su colección y el archivo que se quiere mandar como en el ejercicio 2 de Tiktok a MongoDB. 
+
+![This is an image](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docid=https%3A%2F%2Fepnecuador-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!YP5u9sklC0iywPgRepMQVOdg8BAkAQlLoHr_GSobHaPNJuBAAf_VQKAw4x81bXaz%2Fitems%2F01PVDBQA4NUC74KDAZ7REJERYT6HZCHCM6%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvZXBuZWN1YWRvci1teS5zaGFyZXBvaW50LmNvbUA2ODJhNGU2YS1hNzdmLTQ5NTgtYTNhYy05ZTI2NmQxOGFhMzciLCJpc3MiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAiLCJuYmYiOiIxNjQ0Nzc1MjAwIiwiZXhwIjoiMTY0NDc5NjgwMCIsImVuZHBvaW50dXJsIjoiTWwyby9jRUxiSDVZQ0NNcy9JeVlTQjBNM1VnY0ZVVDZKZk5kd2hITUZBQT0iLCJlbmRwb2ludHVybExlbmd0aCI6IjEyMCIsImlzbG9vcGJhY2siOiJUcnVlIiwidmVyIjoiaGFzaGVkcHJvb2Z0b2tlbiIsInNpdGVpZCI6IlpqWTJaV1psTmpBdE1qVmpPUzAwT0RCaUxXSXlZekF0WmpneE1UZGhPVE14TURVMCIsInNpZ25pbl9zdGF0ZSI6IltcImttc2lcIl0iLCJuYW1laWQiOiIwIy5mfG1lbWJlcnNoaXB8bWF5ZXJsaS5tZW5kZXpAZXBuLmVkdS5lYyIsIm5paSI6Im1pY3Jvc29mdC5zaGFyZXBvaW50IiwiaXN1c2VyIjoidHJ1ZSIsImNhY2hla2V5IjoiMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNzEyOGU5ZmNAbGl2ZS5jb20iLCJzZXNzaW9uaWQiOiI0ZDI5MzdlZC02MTQzLTQ0ZmItYTU4NS02NjhhMjgyZTE4ZDkiLCJ0dCI6IjAiLCJ1c2VQZXJzaXN0ZW50Q29va2llIjoiMyIsImlwYWRkciI6IjE1Ny4xMDAuMTcwLjExOCJ9.OFpoM24ycHBOMHdtcnlLUTBabEdhbDBJVWEyRFdydUpyUE5JU2tsNHlSbz0&cTag=%22c%3A%7BC5BFA08D-190C-48FC-9247-13F1F223899E%7D%2C1%22&encodeFailures=1&width=1366&height=581&srcWidth=&srcHeight=)
 
 ### Envio de datos de MongoDbAtlas a Mysql.
 
