@@ -24,15 +24,12 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
 ### Recoleccion de datos de Twitter
 
 Para la recoleccion de datos de Twitter se lo realizo en jupyter notebook mediante script , por ello lo mas revelevante de tomar en consideracion es tener las API es decir las claves para poder tener acceso a los datos,realizar bien la clase para la extraccion de datos, verificar que se realizo la conexion localmente con las bases de datos que en este caso fueron dos CouchDB y MongoDb ,colocar correctamente el nombre de usuario y contraseña que tengamos, crear la base de datos en la cual se va a guardar los datos y finalmente realizar el track con el parametro que se desea extraer los datos.
 
-Para más detalles, véase [Ipynb de Twitter](https://github.com/mayerli-mendez/Web_Scraping.git).
-
-
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+Para más detalles, véase [El repositorio de GitHub](https://github.com/mayerli-mendez/Recoleccion_de_Datos.git).
