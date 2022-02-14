@@ -12,6 +12,10 @@ Se realizo la recoleccion de datos de platzi la cual es una plataforma de educac
 
 ## Recoleccion de datos de Twitter
 
+<div align="center">
+<img src="http://diarium.usal.es/erikarranz/files/2021/01/twitter.jpg">
+</div>
+
 #### Twitter a CouchDb
 
 Para la recoleccion de datos de Twitter a CouchDb se lo realizo en jupyter notebook mediante script , por ello lo mas revelevante de tomar en consideracion es :
@@ -86,6 +90,10 @@ Y finalmente comprobamos en la base de datos MongoDB.
 
 ## Recoleccion de datos de Facebook
 
+<div align="center">
+<img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Felrincondelmter.blogspot.com%2F2010%2F12%2Fcomo-nace-facebook.html&psig=AOvVaw3dWKK-J8Ob5j3vvfn8m3bW&ust=1644883958343000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjogbj0_fUCFQAAAAAdAAAAABAJ">
+</div>
+
 #### Facebook a CouchDb
 
 Como primer paso será descargar una librería llamada Facebook-scraper que nos permitirá acceder a todos los datos requeridos en Facebook.
@@ -137,6 +145,10 @@ Con el db.inset_one (doc) guardamos los documentos extraídos de Facebook en mon
 
 ## Recoleccion de datos de TikTok
 
+<div align="center">
+<img src="https://i.blogs.es/4f9e01/tiktok/1366_521.jpg">
+</div>
+
 #### TikTok a CouchDb
 
 Para realizar este ejercicio vamos a utilizar comandos para la recopilación de datos de tiktok mediante tiktok scraper. Tiktok scraper es un comando de aplicación donde podemos realizar un almacenamiento de datos mediante hashtag o usuario.  
@@ -166,6 +178,10 @@ Al momento de utilizar esta recopilación debemos ahora importarlo por código P
 En este código pymongo.MongoClient ayudara a la gestión de la conexión del localhost de MongoDB Compass. Como hemos descargado un archivo csv en el mismo directorio de nuestro código debemos utilizar la librería panda para que la función read_csv pueda leer mi archivo descargado csv y pueda imprimirlo con su cabecera. La función to_dict que se utiliza para convertir un marco de datos en un diccionario de series o listas como tipo de datos según el parámetro de orientación. La función db=client[“”] estoy creara o se trabajara si existe en la base de datos de Mongo y la función db.(nombre de collection).insertmany ayudara en la creación de colección y la inserción de múltiples elementos a MongoDB.
 
 ## Recoleccion de datos de WebScraping
+
+<div align="center">
+<img src="https://www.edureka.co/blog/wp-content/uploads/2018/11/Untitled-1.jpg">
+</div>
 
 # Importacion y expotacion de datos.
 
