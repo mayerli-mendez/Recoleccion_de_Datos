@@ -6,7 +6,9 @@ Mostraremos toda la documentacion , pasos de como realizar una recopilacion de d
 
 Se realizo la recoleccion de datos de platzi la cual es una plataforma de educación online efectiva, la cual ofrece mas de 700 cursos enfocados ingeniería y desarrollo de software, diseño y UX, ingles, marketing digital, emprendimiento y negocios y mucho mas.
 
+<div align="center">
 ![image](https://user-images.githubusercontent.com/74840012/153781454-d8d79c0f-576d-4342-b28c-7c0a2c73c96f.png)
+</div>
 
 ## Recoleccion de datos de Twitter
 
