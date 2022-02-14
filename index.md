@@ -459,7 +459,7 @@ Para más detalles, véase [El repositorio de GitHub](https://github.com/mayerli
 
 
 
-#### Autores
+### Autores
 - Manuel Auqui
 - Maria Jose Chala
 - Leoni Guambo
