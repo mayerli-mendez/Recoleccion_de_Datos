@@ -91,7 +91,7 @@ Y finalmente comprobamos en la base de datos MongoDB.
 ## Recoleccion de datos de Facebook
 
 <div align="center">
-<img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Felrincondelmter.blogspot.com%2F2010%2F12%2Fcomo-nace-facebook.html&psig=AOvVaw3dWKK-J8Ob5j3vvfn8m3bW&ust=1644883958343000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjogbj0_fUCFQAAAAAdAAAAABAJ">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3EyZUc8xK1mCCN7z_gpWRg_c0-ikRGmU28mmKJN4d7jFhFoQSWuAwK8UNh82JJCRBtA4&usqp=CAU">
 </div>
 
 #### Facebook a CouchDb
